@@ -86,7 +86,7 @@ PARAM_DEFINE_FLOAT(MIS_LTRMIN_ALT, -1.0f);
  * @increment 100
  * @group Mission
  */
-PARAM_DEFINE_FLOAT(MIS_DIST_1WP, 900);
+PARAM_DEFINE_FLOAT(MIS_DIST_1WP, 5000);
 
 /**
  * Maximal horizontal distance between waypoint
@@ -102,7 +102,7 @@ PARAM_DEFINE_FLOAT(MIS_DIST_1WP, 900);
  * @increment 100
  * @group Mission
  */
-PARAM_DEFINE_FLOAT(MIS_DIST_WPS, 900);
+PARAM_DEFINE_FLOAT(MIS_DIST_WPS, 5000);
 
 /**
  * Altitude setpoint mode
